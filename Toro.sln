@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5DC5441A-EE35-434B-A3BA-FF73D16BA5C1}"
-EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Toro.Core", "src\Toro.Core\Toro.Core.fsproj", "{C9327D06-F0BF-463C-B65F-6D4BC50A438F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DB99B6A8-CCE2-47BA-93C6-5A6EFBE975B5}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Toro.Tests", "tests\Toro.Tests\Toro.Tests.fsproj", "{F5CEB6C5-5FB0-4565-BAEA-8274086694A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{69A73F99-9F36-4B57-A5EF-CDC77278E7A3}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Toro", "src\Toro\Toro.fsproj", "{8A72AF63-E2AB-4DA5-9266-B955D06533C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C9327D06-F0BF-463C-B65F-6D4BC50A438F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9327D06-F0BF-463C-B65F-6D4BC50A438F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9327D06-F0BF-463C-B65F-6D4BC50A438F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9327D06-F0BF-463C-B65F-6D4BC50A438F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9AD3F18C-1FB1-444C-B80E-F90738E5D3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9AD3F18C-1FB1-444C-B80E-F90738E5D3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AD3F18C-1FB1-444C-B80E-F90738E5D3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -32,9 +28,13 @@ Global
 		{F5CEB6C5-5FB0-4565-BAEA-8274086694A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5CEB6C5-5FB0-4565-BAEA-8274086694A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5CEB6C5-5FB0-4565-BAEA-8274086694A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A72AF63-E2AB-4DA5-9266-B955D06533C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A72AF63-E2AB-4DA5-9266-B955D06533C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A72AF63-E2AB-4DA5-9266-B955D06533C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A72AF63-E2AB-4DA5-9266-B955D06533C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C9327D06-F0BF-463C-B65F-6D4BC50A438F} = {5DC5441A-EE35-434B-A3BA-FF73D16BA5C1}
 		{F5CEB6C5-5FB0-4565-BAEA-8274086694A0} = {DB99B6A8-CCE2-47BA-93C6-5A6EFBE975B5}
+		{8A72AF63-E2AB-4DA5-9266-B955D06533C3} = {69A73F99-9F36-4B57-A5EF-CDC77278E7A3}
 	EndGlobalSection
 EndGlobal

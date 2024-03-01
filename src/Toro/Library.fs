@@ -1,4 +1,4 @@
-﻿namespace Toro.Core
+﻿namespace Toro
 
 module Say =
     let hello name = printfn "Hello %s" name
